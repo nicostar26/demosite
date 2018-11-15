@@ -173,14 +173,15 @@ body.modal-open {
 
 .footer-wrapper{
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 1fr 1fr;
     background-color: gray;
     height: 250px;
 
 }
 
-.sitelinks, .socialmedia, .otherinfo{
+.sitelinks, .socialmedia{
     padding: 50px;
+    text-align: center;
 }
 .sitelinks ul{
     list-style: none;
@@ -190,21 +191,15 @@ body.modal-open {
     color: black;
 }
 
-.socialmedia ul{
-    list-style: none;
+.socialmedia{
+    margin-top: 55px;
 }
-.socialmedia a{
-    text-decoration: none;
-    color: black;
+.socialmedia i{
+    font-size: 30px;
+    padding: 10px;
 }
 
-.otherinfo ul{
-    list-style: none;
-}
-.otherinfo a{
-    text-decoration: none;
-    color: black;
-}
+
 
 .signature{
     background-color: gray;
